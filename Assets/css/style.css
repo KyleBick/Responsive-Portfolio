@@ -120,7 +120,7 @@ body {
   /* main */
   
   #main-container {
-    padding-top: 130px;
+    padding-top: 120px;
     min-height: calc(100vh - 70px);
   }
   
@@ -247,9 +247,11 @@ body {
       margin-bottom: ;
     }
 
-    /* Need help moving this up*/
+  
     #main-container{
       width: 90%;
+      padding-top: -0%;
+      
       
     }
 
@@ -262,9 +264,15 @@ body {
   }
 
   @media (min-width: 641px) and (max-width:768px) {
+      
+      img{
+        height:200px;
+      }
+
       .work{
         width: 45%;
-        height: 150px;
+        align-items: center;
+        
       }
       .auth-image{
         width:300px;
@@ -276,6 +284,7 @@ body {
 
       #main-container{
         width: 94%;
+        
       }
 
 
@@ -287,10 +296,18 @@ body {
     p{
       font-size: 1rem;
     }
-/* Cannot get image on one line*/
-    .auth-image{
-      width:25%;
+
+    h3{
+      font-size: 1rem;
     }
+    
+   
+/* Cannot get 2 images on one line*/
+    .work{
+      width: 45%;
+      height: 30%;
+    }
+
     #logo{
       margin-left:7%;
     }
