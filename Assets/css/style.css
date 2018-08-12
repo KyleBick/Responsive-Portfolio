@@ -1,3 +1,5 @@
+/* This links up to my HTML files when I view in default browser but when I visit the kylebick.github.io/Responsive=Portfolio the site looks as if the css file is not linked to the html files*/
+
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 18px;
@@ -302,7 +304,6 @@ body {
     }
     
    
-/* Cannot get 2 images on one line*/
     .work{
       width: 45%;
       height: 30%;
